@@ -1,0 +1,13 @@
+<%- include ../partials/header %> <%- include ../partials/categories-navbar %>
+
+    <!-- Checkout form -->
+    <form action="/checkout" method="POST" id="checkout-form">
+    
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
+     <h2>Confirm Your Purchase</h2>
+      <button id="submit-btn" type="submit" class="btn btn-dark button-style">
+Confirm      </button>
+    </form>
+
+
+<%- include ../partials/footer %>
