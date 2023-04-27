@@ -3,7 +3,7 @@
 To Run the project you will need an .env file
 
 Creata an .env file in the root directory
-
+Setup All the variables given below
 ```
 MONGO_URI="URL From MongoDB got after creating a cluster"
 SESSION_SECRET= "Create a secret key, can be anything eg.0718c008fd7ffb43a1b561fd5b9c0ba3be1543f07cddee71e8b20575bfe9f628"
@@ -21,3 +21,7 @@ npm install
  ```       
 npm run dev
 ```
+
+## To access admin console
+Go to localhost:3000/admin
+There give your admin password and email id
