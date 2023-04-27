@@ -2,7 +2,7 @@
 
 To Run the project you will need an .env file
 
-Creata an .env file in the root directory
+Creata an .env file in the root directory. 
 Setup All the variables given below
 ```
 MONGO_URI="URL From MongoDB got after creating a cluster"
@@ -23,5 +23,7 @@ npm run dev
 ```
 
 ## To access admin console
-Go to localhost:3000/admin\n
+Go to 
+```localhost:3000/admin
+```
 There give your admin password and email id
