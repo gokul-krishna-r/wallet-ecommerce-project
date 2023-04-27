@@ -24,6 +24,7 @@ npm run dev
 
 ## To access admin console
 Go to 
-```localhost:3000/admin
+```
+localhost:3000/admin
 ```
 There give your admin password and email id
